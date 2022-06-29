@@ -4,15 +4,19 @@
     background-position: top center;
     background-size: cover;
     padding: 5% 35% 20% 5%;
+  
 
 }
 
 .menu{
     background-color: transparent;
+    transition:1s ;
 }
 
 .menu2{
-    background-color: rgb(208, 169, 244);
+    background-color: rgb(9, 7, 11);
+    transition:1s;
+    opacity: 0.8;
 }
 
 .formulario{
