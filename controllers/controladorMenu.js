@@ -9,14 +9,14 @@ window.addEventListener("scroll",function(){
     if(document.documentElement.scrollTop == 0){
 
         //Menu transparente
-        miNav.classList.add("menu")
-        miNav.classList.remove("menu2")
+        miNav.classList.add("menu","navbar-dark")
+        miNav.classList.remove("menu2","navbar-light")
 
     } else {
 
         //Menu es de color
-        miNav.classList.add("menu2")
-        miNav.classList.remove("menu")
+        miNav.classList.add("menu2","navbar-light")
+        miNav.classList.remove("menu","navbar-dark")
     }
     
 })

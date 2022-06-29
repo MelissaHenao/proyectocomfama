@@ -10,13 +10,13 @@
 
 .menu{
     background-color: transparent;
-    transition:1s ;
+    transition:0.5s ;
 }
 
 .menu2{
-    background-color: rgb(9, 7, 11);
-    transition:1s;
-    opacity: 0.8;
+    background-color: rgb(246, 243, 249);
+    transition:0.5s;
+    opacity: 0.7;
 }
 
 .formulario{
